@@ -1,0 +1,61 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(236, 240, 185);
+}
+
+main{
+    text-align: center;
+    
+    
+}
+form label{
+    background-color: #eeda9a;
+}
+
+form{
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
+    border: 2px solid rgb(195, 141, 141);
+    width: 300px;
+    background-color: #eeda9a;
+    
+}
+
+input{
+    margin: 6px;
+    
+}
+.texte{
+    background-color: #eeda9a;
+}
+
+button{
+    
+    margin-top: 30px;
+    
+}
+
+h1{
+padding: 10px;
+margin: auto;
+border: 6px solid rgb(239, 164, 114);
+border-radius: 10px;
+width: 600px;
+text-align: center;
+}
+
+.formulaire{
+    margin-top: 60px;
+   
+}
+
+p{
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid rgb(168, 155, 155);
+    width: 200px;
+    background-color: #eeda9a;
+}

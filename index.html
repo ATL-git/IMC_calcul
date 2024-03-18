@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculez votre IMC avec ATLcal</h1>
+
+    </header>
+
+    <main>
+
+        <div class="formulaire">
+            <form action="" method="get">
+                <div class="texte">
+                    <label for=""> votre taille :</label>
+                    <input type="number" id="taille" placeholder="ex. : 1,75 metre">
+                </div>
+                <div class="texte">
+                    <label for=""> votre poids:</label>
+                    <input type="number" id="poids" placeholder="ex. : 65 kg ">
+                </div>
+                <div class="texte">
+                    <button onclick="imc()" type="button">voir mon IMC</button>
+                </div>
+            </form>
+        </div>
+
+        <p id="result"></p>
+        <p id="etat"></p>
+    </main>
+
+    <footer></footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
