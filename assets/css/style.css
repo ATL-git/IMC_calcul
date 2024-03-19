@@ -59,3 +59,12 @@ p{
     width: 200px;
     background-color: #eeda9a;
 }
+
+@media (max-width:700px){
+    h1{
+        width: 80%;
+    }
+    form{
+        width: 80%;
+    }
+}
